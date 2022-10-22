@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
+      - uses: actions/checkout@v3
       - name: test
         run: echo "Hello, World!"
       - name: Hello world action step
