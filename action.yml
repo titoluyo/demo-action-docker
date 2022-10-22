@@ -1,5 +1,7 @@
 # action.yml
-name: 'Hello World'
+name: 'Tynkernaut - Hello World'
+icon: 'align-justify'
+color: 'gray-dark'
 description: 'Greet someone and record the time'
 inputs:
   who-to-greet:  # id of input
